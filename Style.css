@@ -1,1 +1,36 @@
+/* styles.css */
+body {
+font-family: Arial, sans-serif;
+background-color: #001f3f;
+color: white;
+}
 
+.container {
+max-width: 800px;
+margin: 40px auto;
+padding: 20px;
+background-color: #fff;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+text-align: center;
+margin-bottom: 20px;
+}
+
+#registration-form {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+#matching-list {
+list-style: none;
+padding: 0;
+margin: 0;
+}
+
+.matching-container {
+margin-top: 20px;
+}
